@@ -5,9 +5,10 @@ const sequelize = require('./db')
 const models = require('./models/models')
 const app = express()
 const PORT = process.env.PORT || 5000
-
+const router = require('./routes/index')
 app.use(cors())
-    .use(express.json())
+   .use(express.json())
+   .use('/api', router)
 
 const start = async () => {
     try {
