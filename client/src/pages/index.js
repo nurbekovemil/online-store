@@ -1,0 +1,6 @@
+export {default as AdminPage} from './AdminPage'
+export {default as LoginPage} from './LoginPage'
+export {default as RegistrationPage} from './RegistrationPage'
+export {default as BasketPage} from './BasketPage'
+export {default as DevicePage} from './DevicePage'
+export {default as ShopPage} from './ShopPage'
